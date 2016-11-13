@@ -9,10 +9,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Item 2-->
+        <!--Add View Controller-->
         <scene sceneID="nwu-4V-C81">
             <objects>
-                <viewController id="QsD-Fb-7fb" sceneMemberID="viewController">
+                <viewController id="QsD-Fb-7fb" customClass="AddViewController" customModule="Popularity" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="hok-AO-Rmd"/>
                         <viewControllerLayoutGuide type="bottom" id="RME-uX-8a9"/>
@@ -22,16 +22,18 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="rwv-bT-YI0"/>
+                    <tabBarItem key="tabBarItem" title="" image="plus" id="rwv-bT-YI0">
+                        <inset key="imageInsets" minX="0.0" minY="7" maxX="0.0" maxY="-7"/>
+                    </tabBarItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="elD-4H-aNy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="338" y="83"/>
         </scene>
-        <!--Item-->
+        <!--Search View Controller-->
         <scene sceneID="uwc-6T-QL8">
             <objects>
-                <viewController id="JPH-Qw-pqb" sceneMemberID="viewController">
+                <viewController id="JPH-Qw-pqb" customClass="SearchViewController" customModule="Popularity" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="3gB-nd-OBn"/>
                         <viewControllerLayoutGuide type="bottom" id="Ez3-wG-IEW"/>
@@ -41,16 +43,18 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="PG4-s4-NkW"/>
+                    <tabBarItem key="tabBarItem" title="" image="detective" id="PG4-s4-NkW">
+                        <inset key="imageInsets" minX="0.0" minY="7" maxX="0.0" maxY="-7"/>
+                    </tabBarItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2Ag-1e-LiH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="337" y="747"/>
         </scene>
-        <!--Item 1-->
+        <!--Profile View Controller-->
         <scene sceneID="8Nf-BU-13T">
             <objects>
-                <viewController id="LYH-QT-eJW" sceneMemberID="viewController">
+                <viewController id="LYH-QT-eJW" customClass="ProfileViewController" customModule="Popularity" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="s0H-oa-Gnd"/>
                         <viewControllerLayoutGuide type="bottom" id="Kes-VP-aY4"/>
@@ -60,7 +64,9 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" id="th7-YX-07o"/>
+                    <tabBarItem key="tabBarItem" title="" image="profile" id="th7-YX-07o">
+                        <inset key="imageInsets" minX="0.0" minY="7" maxX="0.0" maxY="-7"/>
+                    </tabBarItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="P5g-J7-rik" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -86,4 +92,9 @@
             <point key="canvasLocation" x="-614" y="-244"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="detective" width="40" height="40"/>
+        <image name="plus" width="40" height="40"/>
+        <image name="profile" width="40" height="40"/>
+    </resources>
 </document>
